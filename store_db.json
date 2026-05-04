@@ -1,0 +1,128 @@
+[
+  {
+    "id": 1,
+    "title": "Маргарита",
+    "price": 150,
+    "image": "Маргарита.png",
+    "category": "pizza"
+  },
+  {
+    "id": 2,
+    "title": "Пепероні",
+    "price": 180,
+    "image": "pizza2.png",
+    "category": "pizza"
+  },
+  {
+    "id": 3,
+    "title": "Карбонара",
+    "price": 200,
+    "image": "pizza3.png",
+    "category": "pizza"
+  },
+  {
+    "id": 4,
+    "title": "Гавайська",
+    "price": 190,
+    "image": "pizza4.png",
+    "category": "pizza"
+  },
+  {
+    "id": 5,
+    "title": "Діабло",
+    "price": 210,
+    "image": "pizza5.png",
+    "category": "pizza"
+  },
+  {
+    "id": 6,
+    "title": "Чотири сири",
+    "price": 220,
+    "image": "pizza6.png",
+    "category": "pizza"
+  },
+  {
+    "id": 7,
+    "title": "Чотири сири та м'ясо",
+    "price": 250,
+    "image": "https://via.placeholder.com/300x300?text=Чотири+сири+та+м'ясо",
+    "category": "hits"
+  },
+  {
+    "id": 8,
+    "title": "Курячий шашлик",
+    "price": 180,
+    "image": "https://via.placeholder.com/300x300?text=Курячий+шашлик",
+    "category": "hits"
+  },
+  {
+    "id": 9,
+    "title": "Чиказька піца",
+    "price": 240,
+    "image": "https://via.placeholder.com/300x300?text=Чиказька+піца",
+    "category": "hits"
+  },
+  {
+    "id": 10,
+    "title": "Піца-пирог",
+    "price": 200,
+    "image": "https://via.placeholder.com/300x300?text=Піца-пирог",
+    "category": "hits"
+  },
+  {
+    "id": 11,
+    "title": "Оконом'яки",
+    "price": 170,
+    "image": "https://via.placeholder.com/300x300?text=Оконом'яки",
+    "category": "hits"
+  },
+  {
+    "id": 12,
+    "title": "Юліано",
+    "price": 230,
+    "image": "https://via.placeholder.com/300x300?text=Юліано",
+    "category": "hits"
+  },
+  {
+    "id": 13,
+    "title": "Манго та Маракуя Сода",
+    "price": 45,
+    "image": "promo1.png",
+    "category": "promotions"
+  },
+  {
+    "id": 14,
+    "title": "Тирамісу",
+    "price": 90,
+    "image": "promo2.png",
+    "category": "promotions"
+  },
+  {
+    "id": 15,
+    "title": "Сирні кульки",
+    "price": 75,
+    "image": "promo3.png",
+    "category": "promotions"
+  },
+  {
+    "id": 16,
+    "title": "Шоколадний фонтан",
+    "price": 120,
+    "image": "promo4.png",
+    "category": "promotions"
+  },
+  {
+    "id": 17,
+    "title": "Барбекю",
+    "price": 250,
+    "image": "promo5.png",
+    "category": "promotions"
+  },
+  {
+    "id": 18,
+    "title": "Піца з пармезаном та полуницею",
+    "price": 210,
+    "image": "promo6.png",
+    "category": "promotions"
+  }
+]
