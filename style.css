@@ -134,12 +134,18 @@ body {
 
 /* Сама карточка */
 .product-card {
-    background-color: #fff;
-    border-radius: 4px;
+    display: block;
+    background-color: #feb614;
+     border-radius: 16px;
+  padding: 15px;
     overflow: hidden;
     height: 350px; /* Высота карточки */
     display: flex;
     flex-direction: column;
+    border-radius: 16px;
+      transition: all 0.15s ease;
+
+  transform: translateY(0);
 }
 
 .product-image {
