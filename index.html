@@ -1,187 +1,368 @@
 <!doctype html>
-<html lang="en">
-  <head>
+<html lang="uk">
+
+<head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="style.css">
+
     <title>Il Molino</title>
-  </head>
-  <body>
-    <script src="script.js"></script>
-     <header class="header">
-        <div class="container">
-            <div class="header-top">
-                <div class="burger-menu"><span></span></div>
-                <div class="logo">il Molino</div>
-                <div class="header-right">
-                    <div class="city-select">Київ <span>∨</span></div>
-                    <a href="tel:+380665652890" class="phone">+380665652890</a>
-                    <button class="login-btn">Увійти ➔</button>
-                    <div class="lang-switch">EN</div>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header class="header">
+
+    <div class="container">
+
+        <div class="header-top">
+
+            <div class="logo">
+                il Molino
+            </div>
+
+            <div class="header-right">
+
+                <div class="city-select">
+                    Київ ▼
                 </div>
-            </div>
-        </div>
-        <nav class="main-nav">
-            <div class="container">
-                <ul>
-                    <li class="active">Піца</li>
-                    <li>Піца пепероні</li>
-                    <li>Меню</li>
-                    <li>Салати</li>
-                    <li>Паста і основні страви</li>
-                    <li>Супи</li>
-                    <li>Закуски</li>
-                    <li>Десерти</li>
-                    <li>Напої</li>
-                    <li>Візьми з собою</li>
-                </ul>
-            </div>
-        </nav>
-    </header>
 
-    <section class="hero">
-        <div class="container hero-content">
-            <div class="hero-text">
-                <h1>Нові піци в <br> нашому ресторані!</h1>
+                <a href="tel:+380665652890" class="phone">
+                    +38 066 565 28 90
+                </a>
+
+                <button class="login-btn">
+                    Увійти →
+                </button>
+
+                <div class="lang-switch">
+                    EN
+                </div>
+
             </div>
-            <div class="hero-image">
-               
-                <img src="https://clipart-library.com/image_gallery2/Pizza-PNG-Picture-1.png" alt="Pizza">
-            </div>
+
         </div>
-    </section>
+
+    </div>
+
+    <nav class="main-nav">
+
+        <div class="container">
+
+            <ul>
+                <li>Піца</li>
+                <li>Пепероні</li>
+                <li>Меню</li>
+                <li>Салати</li>
+                <li>Паста</li>
+                <li>Супи</li>
+                <li>Закуски</li>
+                <li>Десерти</li>
+                <li>Напої</li>
+            </ul>
+
+        </div>
+
+    </nav>
+
+</header>
+
+<section class="hero">
+
+    <div class="container hero-content">
+
+        <div class="hero-text">
+
+            <h1>
+                Нові піци в<br>
+                нашому ресторані!
+            </h1>
+
+        </div>
+
+        <div class="hero-image">
+
+            <img src="https://clipart-library.com/image_gallery2/Pizza-PNG-Picture-1.png" alt="Pizza">
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- ПІЦИ -->
+
 <section class="products">
+
     <div class="container">
-        <h2 class="section-title">Піци</h2>
-         <div class="product-grid">
-    <a href="Margherita.html" class="product-card">
-      <div class="product-image">
-        <img src="Маргарита.png">
-      </div>
-      <div class="product-info">Маргарита</div>
-    </a>
 
-    <a href="Diablo.html" class="product-card">
-      <div class="product-image">
-        <img src="Диябло.png">
-      </div>
-      <div class="product-info">Диябло</div>
-    </a>
+        <h2 class="section-title">
+            Піци
+        </h2>
 
-    <a href="Pepperoni.html" class="product-card">
-      <div class="product-image">
-        <img src="Пепперони.png">
-      </div>
-      <div class="product-info">Пепперони</div>
-    </a>
-
-    <a href="Hawaiian.html" class="product-card">
-      <div class="product-image">
-        <img src="Гавайская.png">
-      </div>
-      <div class="product-info">Гавайская</div>
-    </a>
-
-    <a href="FourCheese.html" class="product-card">
-      <div class="product-image">
-        <img src="4сыра.png">
-      </div>
-      <div class="product-info">4 сыра</div>
-    </a>
-
-    <a href="BBQ.html" class="product-card">
-      <div class="product-image">
-        <img src="BBQ.png">
-      </div>
-      <div class="product-info">BBQ</div>
-    </a>
-
-  </div>
-
-</body>
-</html>
-        </div>
-        <div id="productsGrid" class="product-grid">
-        </div>
-
-        <div class="more-container">
-            <button class="show-more">Більше піц</button>
-        </div>
-    </div>
-</section>
-<section class="products hits">
-    <div class="container">
-        <h2 class="section-title">Хіти</h2>
-        
         <div class="product-grid">
-            <!-- Сетка карточек (такая же как в Пиццах) -->
-            <div class="product-card"><div class="product-image"><img src="Маргарита.png"></div><div class="product-info"></div></div>
-            <div class="product-card"><div class="product-image"></div><div class="product-info"></div></div>
-            <div class="product-card"><div class="product-image"></div><div class="product-info"></div></div>
-            <div class="product-card"><div class="product-image"></div><div class="product-info"></div></div>
-            <div class="product-card"><div class="product-image"></div><div class="product-info"></div></div>
-            <div class="product-card"><div class="product-image"></div><div class="product-info"></div></div>
+
+            <a href="Margherita.html" class="product-card">
+
+                <div class="product-image">
+                    <img src="Маргарита.png" alt="Маргарита">
+                </div>
+
+                <div class="product-info">
+                    Маргарита
+                </div>
+
+            </a>
+
+            <a href="Carbonara.html" class="product-card">
+
+                <div class="product-image">
+                    <img src="pizza3.png" alt="Карбонара">
+                </div>
+
+                <div class="product-info">
+                    Карбонара
+                </div>
+
+            </a>
+
+            <a href="pepperoni.html" class="product-card">
+
+                <div class="product-image">
+                    <img src="pizza2.png" alt="Пеппероні">
+                </div>
+
+                <div class="product-info">
+                    Пеппероні
+                </div>
+
+            </a>
+
+            <a href="Hawaiian.html" class="product-card">
+
+                <div class="product-image">
+                    <img src="pizza4.png" alt="Гавайська">
+                </div>
+
+                <div class="product-info">
+                    Гавайська
+                </div>
+
+            </a>
+
+            <a href="FourCheese.html" class="product-card">
+
+                <div class="product-image">
+                    <img src="pizza6.png" alt="4 Сири">
+                </div>
+
+                <div class="product-info">
+                    4 Сири
+                </div>
+
+            </a>
+
+            <a href="BBQ.html" class="product-card">
+
+                <div class="product-image">
+                    <img src="pizza5.png" alt="BBQ">
+                </div>
+
+                <div class="product-info">
+                    BBQ
+                </div>
+
+            </a>
+
         </div>
 
         <div class="more-container">
-            <button class="show-more">Більше хітів</button>
+
+            <button class="show-more">
+                Більше піц
+            </button>
+
         </div>
+
     </div>
+
 </section>
-<section class="products actions">
+
+<!-- ХІТИ -->
+
+<section class="products">
+
     <div class="container">
-        <h2 class="section-title">Акції</h2>
-        
+
+        <h2 class="section-title">
+            Хіти
+        </h2>
+
         <div class="product-grid">
-            
-            <div class="product-card"><div class="product-image"></div><div class="product-info"></div></div>
-            <div class="product-card"><div class="product-image"></div><div class="product-info"></div></div>
-            <div class="product-card"><div class="product-image"></div><div class="product-info"></div></div>
-            <div class="product-card"><div class="product-image"></div><div class="product-info"></div></div>
-            <div class="product-card"><div class="product-image"></div><div class="product-info"></div></div>
-            <div class="product-card"><div class="product-image"></div><div class="product-info"></div></div>
+
+            <div class="product-card">
+
+                <div class="product-image">
+                    <img src="pizza2.png" alt="">
+                </div>
+
+                <div class="product-info">
+                    Пеппероні Хіт
+                </div>
+
+            </div>
+
+            <div class="product-card">
+
+                <div class="product-image">
+                    <img src="pizza5.png" alt="">
+                </div>
+
+                <div class="product-info">
+                    BBQ Хіт
+                </div>
+
+            </div>
+
+            <div class="product-card">
+
+                <div class="product-image">
+                        <img src="Маргарита.png" alt="">
+                    </div>
+
+                <div class="product-info">
+                    Маргарита Хіт
+                </div>
+
+            </div>
+
         </div>
 
         <div class="more-container">
-            <button class="show-more">Всі акції</button>
+
+            <button class="show-more">
+                Більше хітів
+            </button>
+
         </div>
+
     </div>
+
 </section>
+
+<!-- АКЦІЇ -->
+
+<section class="products">
+
+    <div class="container">
+
+        <h2 class="section-title">
+            Акції
+        </h2>
+
+        <div class="product-grid">
+
+            <div class="product-card">
+
+                <div class="product-image">
+                    <img src="pizza3.png" alt="">
+                </div>
+
+                <div class="product-info">
+                    -20% на Пеппероні
+                </div>
+
+            </div>
+
+            <div class="product-card">
+
+                <div class="product-image">
+                    <img src="pizza5.png" alt="">
+                </div>
+
+                <div class="product-info">
+                    2 BBQ за ціною 1
+                </div>
+
+            </div>
+
+            <div class="product-card">
+
+                <div class="product-image">
+                    <img src="pizza4.png" alt="">
+                </div>
+
+                <div class="product-info">
+                    Гавайська + Cola
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="more-container">
+
+            <button class="show-more">
+                Всі акції
+            </button>
+
+        </div>
+
+    </div>
+
+</section>
+
 <footer class="footer">
+
     <div class="container">
+
         <div class="footer-content">
+
             <div class="footer-col">
-                <div class="footer-logo">il Molino</div>
-                <p class="copyright">© 2024 il Molino. <br>Всі права захищено.</p>
+
+                <div class="footer-logo">
+                    il Molino
+                </div>
+
+                <p class="copyright">
+                    © 2024 il Molino.<br>
+                    Всі права захищено.
+                </p>
+
             </div>
 
             <div class="footer-col">
+
                 <h3>Про нас</h3>
+
                 <ul>
                     <li><a href="#">Про компанію</a></li>
                     <li><a href="#">Кар'єра</a></li>
-                    <li><a href="#">Корпоративним клієнтам</a></li>
-                </ul>
-            </div>
-
-            <div class="footer-col">
-                <h3>Допомога</h3>
-                <ul>
-                    <li><a href="#">Доставка та оплата</a></li>
-                    <li><a href="#">Публічна оферта</a></li>
                     <li><a href="#">Контакти</a></li>
                 </ul>
+
             </div>
 
             <div class="footer-col">
+
                 <h3>Контакти</h3>
-                <a href="tel:+380665652890" class="footer-phone">+38 066 565 28 90</a>
+
+                <a href="tel:+380665652890" class="footer-phone">
+                    +38 066 565 28 90
+                </a>
+
                 <div class="socials">
-                    <span>Facebook</span> <span>Instagram</span>
+                    <span>Facebook</span>
+                    <span>Instagram</span>
                 </div>
+
             </div>
+
         </div>
+
     </div>
+
 </footer>
 
 </body>
